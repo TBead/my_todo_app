@@ -12,7 +12,7 @@ def add_todo():
 
 st.title("My Todo App")
 st.subheader("This app is to increase your productivity.")
-st.text("When you finished a task just click on the checkbox to remove it.")
+st.text("When you finish a task just click on the checkbox to remove it.")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
